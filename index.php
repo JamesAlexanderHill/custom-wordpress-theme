@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+<?php get_template_part('template-parts/header'); ?>
 <section id="content">
   <?php
     if ( have_posts() ) :
@@ -9,4 +9,4 @@
     endif;
   ?>
 </section>
-<?php get_footer(); ?>
+<?php get_template_part('template-parts/footer'); ?>

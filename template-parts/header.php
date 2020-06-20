@@ -7,7 +7,7 @@
   </head>
   <body <?php body_class(); ?>>
     <?php wp_body_open(); ?>
-    <?php get_sidebar(); ?>
+    <?php get_template_part('template-parts/sidebar'); ?>
     <main id="main">
       <header>
         <a id="sidebar-menu-btn" class="btn" onclick="toggleSidebar()"><i class="fas fa-bars"></i></a>
